@@ -1,0 +1,55 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+@font-face {
+  font-family: outfit;
+  font-style: normal;
+font-weight: 400;
+font-display: swap;
+  src: url(./fonts/Outfit-Regular.woff2);
+}
+@font-face {
+  font-family: outfit;
+  font-style: normal;
+font-weight: 700;
+font-display: swap;
+  src: url(./fonts/Outfit-Bold.woff2);
+}
+body {
+  background-color: hsl(212, 45%, 89%);
+  font-family: outfit, sans-serif;
+  font-size: 15px;
+  display: grid;
+  place-items: center;
+  min-height: 100vh;
+}
+img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 0.675rem;
+}
+main {
+background-color: hsl(0, 0%, 100%);
+max-width: 320px;
+padding: 0.875rem;
+border-radius: 1.35rem;
+box-shadow: 0 1.6rem 1.6rem hsla(0, 0%, 0%, 0.05);
+text-align: center;
+margin: 1.075rem;
+}
+h1 {
+  font-size: 1.375rem;
+  line-height: 1.275;
+  margin-top: 1.1em;
+  color: hsl(218, 44%, 22%);
+}
+p {
+  line-height: 1.3rem;
+  color: hsl(220, 15%, 55%);
+  margin: 1.075em;
+}
+
+.attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 73%, 58%); }
